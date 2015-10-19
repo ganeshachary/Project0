@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#DEEAF1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:context=".MainActivity" tools:showIn="@layout/activity_main">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="@string/heading"
+        android:textSize="25sp"
+        />
+    <Button
+
+        android:id="@+id/button_spotifystreamer"
+        android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+        android:background="#F08135"
+        android:onClick="buttonMessage"
+        android:padding="15dp"
+        android:text="@string/Button1"
+        android:textAllCaps="true"
+        />
+    <Button
+        android:id="@+id/button_scoresapp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#F08135"
+        android:onClick="buttonMessage"
+        android:padding="15dp"
+        android:text="@string/Button2"
+        android:textAllCaps="true"
+        />
+    <Button
+        android:id="@+id/button_libraryapp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#F08135"
+
+        android:onClick="buttonMessage"
+        android:padding="15dp"
+        android:text="@string/Button3"
+        android:textAllCaps="true"
+
+
+        />
+    <Button
+        android:id="@+id/button_builditbiagger"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#F08135"
+        android:onClick="buttonMessage"
+        android:padding="15dp"
+        android:text="@string/Button4"
+        android:textAllCaps="true"
+        />
+    <Button
+        android:id="@+id/button_xyzreader"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#F08135"
+        android:onClick="buttonMessage"
+        android:padding="15dp"
+        android:text="@string/Button5"
+        android:textAllCaps="true"
+        />
+    <Button
+        android:id="@+id/button_capstone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#CC0D3D"
+        android:onClick="buttonMessage"
+        android:padding="15dp"
+        android:text="@string/Button6"
+        android:textColor="#ffff"
+        android:textAllCaps="true"
+
+        />
+</LinearLayout>
