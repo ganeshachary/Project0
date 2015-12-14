@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     //Code for event handled on button press
-
+///byebye
 
     //this method is called by buttonMessage and it creates the toasts and format the string and time for the toasts
     public void showButtonContent(String message)
